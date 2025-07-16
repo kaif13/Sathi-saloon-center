@@ -18,7 +18,7 @@ A modern and responsive frontend project simulating a saloon product showcase, b
 
 ## 📸 Demo
 
-> 🔗 **Live Demo:** [https://sathi-saloon-center.netlify.app/](https://github.com/kaif13/Sathi-saloon-center)
+> 🔗 **Live Demo:** (https://sathi-saloon-center.netlify.app/)
 
 ### 🏠 Home Page (Header + Product Section)
 
