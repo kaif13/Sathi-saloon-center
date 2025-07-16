@@ -117,6 +117,14 @@ const products = [
     description:
       "Boost hair strength and reduce hair fall with this 100 ml Hair Growth Vitalizer. Enriched with natural ingredients to promote thicker, healthier, and revitalized hair.",
     image: "/images/Hair-Styling/Hair Growth Vitalizer - 100 ml.jpg",
+    images: [
+      "/images/Hair-Styling/Hair Growth Vitalizer - 100 ml.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/h/a/hair_growth_vitalizer_3.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/h/a/hair_growth_vitalizer_4.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/h/a/hair_growth_vitalizer_6.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/h/a/hair_growth_vitalizer_7.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/h/a/hair_growth_vitalizer_9.jpg",
+    ],
   },
   {
     id: 8,
@@ -229,6 +237,14 @@ const products = [
     description:
       "Nourish and soften your hair with this Daily Use Hair Conditioner. Gentle enough for everyday use, it adds shine, reduces frizz, and keeps hair smooth and manageable.",
     image: "/images/Hair-Styling/Daily Use Hair Conditioner - 100g.jpg",
+    images: [
+      "/images/Hair-Styling/Daily Use Hair Conditioner - 100g.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/2/_/2_352_1.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/3/_/3_410.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/5/_/5_210_1.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/b/a/back_61.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/h/n/hnad-shot.jpg",
+    ],
   },
   {
     id: 15,
@@ -292,6 +308,13 @@ const products = [
     description:
       "Enriched with traditional herbs, this Ayurvedic Hair Oil nourishes the scalp, strengthens roots, reduces hair fall, and promotes healthy, lustrous hair with regular use.",
     image: "/images/Hair-Styling/Ayurvedic Hair Oil - 200 ml.jpg",
+    images: [
+      "/images/Hair-Styling/Ayurvedic Hair Oil - 200 ml.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/2/_/2_1100x1100.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/a/h/aho--200ml.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/3/_/3_1100x1100.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/5/_/5_1100x1100.jpg",
+    ],
   },
   {
     id: 19,
@@ -317,6 +340,13 @@ const products = [
     description:
       "Enhance your hair’s volume and nourishment with this Hair Growth Cream. Rich in botanicals, it strengthens strands, boosts scalp health, and promotes thicker, revitalized hair with regular use.",
     image: "/images/Hair-Styling/Hair Growth Cream - 100g.jpg",
+    images: [
+      "/images/Hair-Styling/Hair Growth Cream - 100g.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/h/a/hair_growth_cream_2.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/h/a/hair_growth_cream_4.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/h/a/hair_growth_cream_7.jpg",
+      "https://d1ebdenobygu5e.cloudfront.net/media/catalog/product/h/g/hgc_b.jpg",
+    ],
   },
   {
     id: 21,

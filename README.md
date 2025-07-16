@@ -1,12 +1,98 @@
-# React + Vite
+# 💈 Sathi Saloon Center
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive frontend project simulating a saloon product showcase, built using **React**, **Tailwind CSS**, and **Redux Toolkit**. This is a personal learning project and does **not provide any real services**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 💇 Display of men's grooming products
+- 🖼️ Product cards with images, names, and prices
+- 🌀 Carousel integration using Swiper
+- 🔍 Filtered product views using Redux
+- 🛒 Cart functionality UI
+- 📱 Mobile-first, fully responsive UI with Tailwind CSS
+- ⚡ Clean and modern component-based design using React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Demo
+
+> 🔗 **Live Demo:** [https://sathi-saloon-center.netlify.app/](https://github.com/kaif13/Sathi-saloon-center)
+
+### 🏠 Home Page (Header + Product Section)
+
+![Home Page Top](./public/images/Demo/home-1.png)
+![Home Page Bottom](./public/images/Demo/home-2.png)
+
+### 📄 Product Detail Page
+
+![Product Detail](./public/images/Demo/Product.png)
+
+### 🛒 Cart Page
+
+![Cart Page](./public/images/Demo/cart.png)
+
+---
+
+## 🛠️ Tech Stack & Dependencies
+
+```json
+"dependencies": {
+  "@reduxjs/toolkit": "^2.8.2",
+  "lucide": "^0.525.0",
+  "lucide-react": "^0.525.0",
+  "react": "^19.1.0",
+  "react-dom": "^19.1.0",
+  "react-redux": "^9.2.0",
+  "react-router-dom": "^7.6.3",
+  "swiper": "^11.2.10"
+}
+```
+
+Other tools used:
+
+- **Vite** – Lightning-fast frontend build tool
+- **Tailwind CSS** – Utility-first CSS framework
+
+---
+
+## ⚙️ Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/kaif13/Sathi-saloon-center
+cd sathi-saloon-center
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the development server**
+
+```bash
+npm run dev
+```
+
+4. Open `http://localhost:5173` in your browser.
+
+---
+
+## 📌 Disclaimer
+
+This project is for **educational/demo purposes only**.
+
+- I am **not providing any real services**.
+- All product images, names, and references are based on **Ustraa** products.
+- Ustraa and any other brands used have **no affiliation or endorsement** of this project.
+- All copyrights belong to their respective owners.
+
+---
+
+## 📝 License
+
+This project is licensed for personal and non-commercial use only.

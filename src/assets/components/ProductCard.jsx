@@ -18,7 +18,7 @@ function ProductCard({ product }) {
         />
         <div className="bg-gray-50 p-4">
           <h2 className="text-lg font-semibold my-4">
-            {product.title.substring(0, 30) + "..."}
+            {product.title.substring(0, 25) + "..."}
           </h2>
           <p className="text-sm text-zinc-500 border-b-2 pb-4">
             {product.description.substring(0, 70) + "..."}

@@ -97,6 +97,9 @@ function Footer() {
                 <li>
                   <Link to="/">Trimmer</Link>
                 </li>
+                <li>
+                  <Link to="/">Hair Care</Link>
+                </li>
               </ul>
             </div>
 
@@ -107,16 +110,13 @@ function Footer() {
               </h2>
               <ul className="space-y-1 text-sm sm:text-base">
                 <li>
-                  <Link to="/">Uttar Pradesh</Link>
+                  <Link to="/">Station Road</Link>
                 </li>
                 <li>
-                  <Link to="/">Brahmi Baba Nagar</Link>
+                  <Link to="/">Ballia – 277001</Link>
                 </li>
                 <li>
-                  <Link to="/">Chitbaragaon</Link>
-                </li>
-                <li>
-                  <Link to="/">Ballia 221713</Link>
+                  <Link to="/">Uttar Pradesh, India</Link>
                 </li>
               </ul>
             </div>

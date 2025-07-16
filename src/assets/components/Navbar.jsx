@@ -56,33 +56,34 @@ function Navbar() {
           </p>
         </div>
 
-        <div className="py-2 px-4 sm:px-6 md:px-8 shadow-md ">
-          <ul className="container mx-auto flex flex-wrap md:flex-nowrap justify-between items-center px-2 sm:px-4 md:px-2 relative">
-            <div className="flex gap-4 mb-2 md:mb-0">
-              <div className="flex items-center">
-                <Link
-                  to="/"
-                  onClick={() => dispatch(setSelectedCategory("ALL"))}
-                  className="py-2 px-1 rounded"
-                >
-                  <img
-                    src={logo}
-                    alt="Logo"
-                    className="w-40 sm:w-48 md:w-50 pt-2 cursor-pointer"
-                  />
-                </Link>{" "}
-              </div>
+        <div className="py-2 px-4 sm:px- md:px-8 shadow-md">
+          <div className="container mx-auto flex flex-wrap md:flex-nowrap justify-between items-center">
+            {/* Logo Section */}
+            <div className="flex items-center mb-2 md:mb-0">
+              <Link
+                to="/"
+                onClick={() => dispatch(setSelectedCategory("ALL"))}
+                className="py-2 px-1 rounded"
+              >
+                <img
+                  src={logo}
+                  alt="Logo"
+                  className="w-32 sm:w-40 md:w-48 pt-2 cursor-pointer"
+                />
+              </Link>
             </div>
-            <ul className="flex items-center gap-2 relative">
+
+            {/* Icons Section */}
+            <div className="flex items-center gap-3 sm:gap-4">
               {/* User Icon + Dropdown */}
-              <li className="relative">
+              <div className="relative">
                 <User
-                  size={50}
-                  className="cursor-pointer bg-gray-100 px-3 py-2 rounded-full"
+                  size={40}
+                  className="cursor-pointer bg-gray-100 px-2 py-2 rounded-full"
                   onClick={handleUser}
                 />
                 {isOpen && (
-                  <div className="absolute right-1 top-12 z-10 bg-zinc-50 p-4 w-40 flex flex-col gap-1 shadow-md rounded">
+                  <div className="absolute right-0 top-12 z-10 bg-zinc-50 p-4 w-36 flex flex-col gap-1 shadow-md rounded">
                     <Link to="/" className="hover:underline">
                       Sign
                     </Link>
@@ -91,37 +92,39 @@ function Navbar() {
                     </Link>
                   </div>
                 )}
-              </li>
+              </div>
 
               {/* Cart Icon */}
-              <li className="relative">
+              <div className="relative">
                 <Link to="/cart">
                   <ShoppingCart
-                    size={50}
-                    className="cursor-pointer bg-gray-100 px-3 py-2 rounded-full"
+                    size={40}
+                    className="cursor-pointer bg-gray-100 px-2 py-2 rounded-full"
                   />
                   {itemCount > 0 && (
-                    <span className="absolute -top-2 -right-1 bg-blue-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+                    <span className="absolute -top-1.5 -right-1 bg-blue-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
                       {itemCount}
                     </span>
                   )}
                 </Link>
-              </li>
-              <li className="relative md:hidden sm:hidden lg:hidden">
+              </div>
+
+              {/* Mobile Search Toggle */}
+              <div className="md:hidden">
                 <button
                   type="button"
-                  className="p-2"
+                  className="p-1"
                   onClick={() => setShowSearch(!showSearch)}
                   aria-label="Toggle Search"
                 >
                   <Search
-                    size={50}
-                    className="cursor-pointer bg-gray-100 px-3 py-2 rounded-full"
+                    size={40}
+                    className="cursor-pointer bg-gray-100 px-2 py-2 rounded-full"
                   />
                 </button>
-              </li>
-            </ul>
-          </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </header>
       <header className="bg-white shadow-md">
